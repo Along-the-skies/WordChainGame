@@ -1,3 +1,0 @@
-paho-mqtt
-english-words
-customtkinter

@@ -1,0 +1,65 @@
+# --- General ---
+*.log
+*.tmp
+*.bak
+*.old
+*.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+.venv/
+.envrc
+*.egg-info/
+build/
+dist/
+
+# --- C# / .NET ---
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.exe
+*.dll
+*.dbmdl
+*.vs/
+*.vscode/
+*.nupkg
+*.snupkg
+*.swp
+
+# Keep only the published Windows launcher exe
+!Launcher/WordChainGameLauncher.exe
+
+# --- Inno Setup ---
+Installer/Output/
+Output/
+*.iss.bak
+
+# --- Game assets ---
+Game/__pycache__/
+Game/*.pyc
+Game/*.pyo
+
+# --- Tools ---
+Tools/__pycache__/
+Tools/*.pyc
+
+# --- Launcher publish output ---
+WordChainGameLauncher/
+Launcher/Output/
+
+# --- Installer build output ---
+Installer/Output/
+Output/*.exe
+
+# --- OS-specific ---
+ehthumbs.db
+Desktop.ini
