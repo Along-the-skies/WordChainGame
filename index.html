@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Word Chain Multiplayer</title>
+
+<style>
+    body{
+        margin:0;
+        font-family:Arial, sans-serif;
+        background:#081C15;
+        color:#F1FAEE;
+    }
+
+    .container{
+        width:90%;
+        max-width:900px;
+        margin:auto;
+        padding:40px 0;
+    }
+
+    h1{
+        text-align:center;
+        font-size:50px;
+        color:#95D5B2;
+        margin-bottom:5px;
+    }
+
+    .subtitle{
+        text-align:center;
+        color:#52B788;
+        font-size:20px;
+        margin-bottom:35px;
+    }
+
+    .download-box{
+        background:#1B4332;
+        padding:35px;
+        border-radius:20px;
+        text-align:center;
+        margin-bottom:30px;
+    }
+
+    .download-btn{
+        display:inline-block;
+        background:#52B788;
+        color:black;
+        text-decoration:none;
+        padding:20px 50px;
+        border-radius:12px;
+        font-size:28px;
+        font-weight:bold;
+        transition:0.2s;
+    }
+
+    .download-btn:hover{
+        transform:scale(1.05);
+        background:#74C69D;
+    }
+
+    .download-text{
+        margin-top:15px;
+        color:#D8F3DC;
+    }
+
+    .card{
+        background:#1B4332;
+        padding:25px;
+        border-radius:18px;
+        margin-bottom:20px;
+    }
+
+    h2{
+        color:#95D5B2;
+        margin-top:0;
+    }
+
+    p, li{
+        line-height:1.8;
+    }
+
+    ul, ol{
+        padding-left:25px;
+    }
+
+    footer{
+        text-align:center;
+        margin-top:30px;
+        color:#95D5B2;
+        font-size:14px;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🌿 Word Chain Multiplayer</h1>
+
+    <div class="subtitle">
+        Fast paced online word battles powered by Python and MQTT
+    </div>
+
+    <!-- DOWNLOAD FIRST -->
+    <div class="download-box">
+        <a href="WordChainLauncher.bat" download class="download-btn">
+            ⬇ Download Game
+        </a>
+
+        <div class="download-text">
+            One click install • Auto updates • No manual setup required
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📖 About The Game</h2>
+
+        <p>
+            Word Chain Multiplayer is an online 1v1 game where players
+            take turns entering valid English words.
+        </p>
+
+        <p>
+            Every new word must begin with the final letter of the
+            previous word. The match continues until one player is
+            eliminated by strikes or leaves the room.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>✨ Features</h2>
+
+        <ul>
+            <li>🌐 Online Multiplayer Rooms</li>
+            <li>⚡ Real Time Gameplay</li>
+            <li>📚 Large English Dictionary Validation</li>
+            <li>⏱ 30 Second Turn Timer</li>
+            <li>❌ Strike System</li>
+            <li>🏆 Winner Detection</li>
+            <li>🔄 Automatic Updates</li>
+            <li>📦 One Click Installation</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🎮 How To Play</h2>
+
+        <ol>
+            <li>Download and run the launcher.</li>
+            <li>Create a room or join a friend's room.</li>
+            <li>Wait until two players are connected.</li>
+            <li>The game starts automatically.</li>
+            <li>Enter a valid English word using the required letter.</li>
+            <li>The next player must continue from your last letter.</li>
+            <li>Invalid words give strikes.</li>
+            <li>Exceed the strike limit and you are eliminated.</li>
+            <li>The last remaining player wins the match.</li>
+        </ol>
+    </div>
+
+    <div class="card">
+        <h2>💻 Requirements</h2>
+
+        <ul>
+            <li>Windows 10 or newer</li>
+            <li>Internet connection</li>
+            <li>No Python installation required</li>
+            <li>The launcher installs everything automatically</li>
+        </ul>
+    </div>
+
+    <footer>
+        Made with Python, CustomTkinter and MQTT ---
+        Made By Vasudev aka Along-the-skies
+    </footer>
+
+</div>
+
+</body>
+</html>
