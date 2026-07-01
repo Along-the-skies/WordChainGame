@@ -1,0 +1,15 @@
+D:\Word Chain Game\WordChainGameLauncher\bin\Debug\net10.0-windows\WordChainGameLauncher.exe
+D:\Word Chain Game\WordChainGameLauncher\bin\Debug\net10.0-windows\WordChainGameLauncher.deps.json
+D:\Word Chain Game\WordChainGameLauncher\bin\Debug\net10.0-windows\WordChainGameLauncher.runtimeconfig.json
+D:\Word Chain Game\WordChainGameLauncher\bin\Debug\net10.0-windows\WordChainGameLauncher.dll
+D:\Word Chain Game\WordChainGameLauncher\bin\Debug\net10.0-windows\WordChainGameLauncher.pdb
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.GeneratedMSBuildEditorConfig.editorconfig
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.AssemblyInfoInputs.cache
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.AssemblyInfo.cs
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.csproj.CoreCompileInputs.cache
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.sourcelink.json
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.dll
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\refint\WordChainGameLauncher.dll
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.pdb
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\WordChainGameLauncher.genruntimeconfig.cache
+D:\Word Chain Game\WordChainGameLauncher\obj\Debug\net10.0-windows\ref\WordChainGameLauncher.dll

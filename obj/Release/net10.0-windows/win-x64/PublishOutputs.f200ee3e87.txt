@@ -1,0 +1,2 @@
+D:\Word Chain Game\WordChainGameLauncher\bin\Release\net10.0-windows\win-x64\publish\WordChainGameLauncher.pdb
+D:\Word Chain Game\WordChainGameLauncher\bin\Release\net10.0-windows\win-x64\publish\WordChainGameLauncher.exe

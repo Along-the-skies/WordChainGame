@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DbSinrw72nU=",
+  "success": true,
+  "projectFilePath": "D:\\Word Chain Game\\WordChainGameLauncher\\WordChainGameLauncher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\VASUDEV\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.9\\microsoft.net.illink.tasks.10.0.9.nupkg.sha512",
+    "C:\\Users\\VASUDEV\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.9\\microsoft.netcore.app.runtime.win-x64.10.0.9.nupkg.sha512",
+    "C:\\Users\\VASUDEV\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.9\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.9.nupkg.sha512",
+    "C:\\Users\\VASUDEV\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.9\\microsoft.aspnetcore.app.runtime.win-x64.10.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
