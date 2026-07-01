@@ -7,7 +7,8 @@ REM Configuration
 REM ===============================
 
 set GAME_DIR=%~dp0WordChainGame
-set REPO_RAW=REPLACE_WITH_YOUR_RAW_GITHUB_PATH
+set REPO_RAW=https://github.com/Along-the-skies/WordChainGame.git/raw/main
+
 
 if not exist "%GAME_DIR%" mkdir "%GAME_DIR%"
 
