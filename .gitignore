@@ -37,6 +37,8 @@ obj/
 
 # Keep only the published Windows launcher exe
 !Launcher/WordChainGameLauncher.exe
+!Launcher/WordChainGameSetup.exe
+
 
 # --- Inno Setup ---
 Installer/Output/

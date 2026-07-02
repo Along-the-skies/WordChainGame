@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Word Chain Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0b3d0b, #145214);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .header, .footer {
+      background: #0b3d0b;
+      color: #d4edda;
+      text-align: center;
+      padding: 15px;
+      font-weight: bold;
+    }
+    .container {
+      flex: 1;
+      background: #1c3d1c;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+      max-width: 900px;
+      margin: 30px auto;
+      color: #c3e6cb;
+    }
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      border: 1px solid #2e8b57;
+      border-radius: 8px;
+      background: rgba(20, 82, 20, 0.6);
+    }
+    h1 {
+      color: #d4edda;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #a8d5ba;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+    p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+    ul {
+      text-align: left;
+      margin: 0 auto 20px auto;
+      max-width: 600px;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .download-btn {
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #fff;
+      background: #2e8b57;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .download-btn:hover {
+      background: #3cb371;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    🌲 Word Chain Game
+  </div>
+
+  <div class="container">
+    <div class="section" id="intro">
+      <h1>Welcome to the Word Chain Game</h1>
+      <p>Step into the forest and test your vocabulary skills! Click below to download the setup file and start playing.</p>
+      <div class="button-container">
+        <!-- Updated path to Launcher folder -->
+    <a href="Launcher/WordChainGameSetup.exe" class="download-btn" download>Download Setup</a>
+      </div>
+    </div>
+
+    <div class="section" id="features">
+      <h2>🌟 Features</h2>
+      <ul>
+        <li>Engaging word chain gameplay to challenge your vocabulary.</li>
+        <li>Offline play — no internet required.</li>
+        <li>Simple, clean interface with forest‑themed visuals.</li>
+        <li>Supports single and multiplayer modes.</li>
+        <li>Lightweight installer, quick setup.</li>
+      </ul>
+    </div>
+
+    <div class="section" id="how-to-play">
+      <h2>🎮 How to Play</h2>
+      <ul>
+        <li>Start the game and enter the first word.</li>
+        <li>Each new word must begin with the last letter of the previous word.</li>
+        <li>No word can be repeated during the round.</li>
+        <li>Play continues until a player cannot form a valid word.</li>
+        <li>The player with the longest chain wins!</li>
+      </ul>
+    </div>
+
+    <div class="section" id="setup">
+      <h2>⚙️ Setup Instructions</h2>
+      <ul>
+        <li>Click the <strong>Download Setup</strong> button above.</li>
+        <li>Locate the downloaded <code>WordChainGameSetup.exe</code> file on your PC.</li>
+        <li>Double‑click the file to start installation.</li>
+        <li>Follow the on‑screen instructions to complete setup.</li>
+        <li>Launch the game from your desktop or start menu.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    Made by Vasudev © 2026
+  </div>
+</body>
+</html>
