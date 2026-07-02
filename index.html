@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Word Chain Game</title>
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
     }
 
     body {
@@ -17,6 +20,10 @@
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
     }
 
     .header, .footer {
@@ -26,6 +33,7 @@
       padding: 15px;
       font-weight: bold;
       font-size: clamp(18px, 5vw, 24px);
+      flex-shrink: 0;
     }
 
     .container {
@@ -38,6 +46,8 @@
       width: 90%;
       margin: clamp(15px, 5vh, 30px) auto;
       color: #c3e6cb;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
     }
 
     .section {
@@ -114,6 +124,9 @@
       transition: background 0.3s ease, transform 0.2s ease;
       cursor: pointer;
       display: inline-block;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
     }
 
     .download-btn:hover {
