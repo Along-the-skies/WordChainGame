@@ -88,7 +88,7 @@
   <div class="container">
     <div class="section" id="intro">
       <h1>Welcome to the Word Chain Game</h1>
-      <p>Step into the forest and test your vocabulary skills! Click below to download the setup file and start playing.</p>
+      <p>Challenge a friend in an exciting multiplayer word chain battle! Test your vocabulary, quick thinking, and strategy. Download the game and start playing today!</p>
       <div class="button-container">
         <!-- Updated path to Launcher folder -->
     <a href="Launcher/WordChainGameSetup.exe" class="download-btn" download>Download Setup</a>
@@ -98,22 +98,38 @@
     <div class="section" id="features">
       <h2>🌟 Features</h2>
       <ul>
-        <li>Engaging word chain gameplay to challenge your vocabulary.</li>
-        <li>Offline play — no internet required.</li>
-        <li>Simple, clean interface with forest‑themed visuals.</li>
-        <li>Supports single and multiplayer modes.</li>
-        <li>Lightweight installer, quick setup.</li>
+        <li>Multiplayer word chain gameplay - compete with a friend in real-time.</li>
+        <li>Online multiplayer using MQTT protocol for seamless networking.</li>
+        <li>Dynamic turn-based system with 30-second timer per turn.</li>
+        <li>Strike system - 3 strikes and you're out!</li>
+        <li>Real-time scoring and player elimination.</li>
+        <li>Beautiful forest-themed interface with intuitive design.</li>
+        <li>Lightweight installer with quick, easy setup.</li>
       </ul>
     </div>
 
     <div class="section" id="how-to-play">
       <h2>🎮 How to Play</h2>
       <ul>
-        <li>Start the game and enter the first word.</li>
-        <li>Each new word must begin with the last letter of the previous word.</li>
-        <li>No word can be repeated during the round.</li>
-        <li>Play continues until a player cannot form a valid word.</li>
-        <li>The player with the longest chain wins!</li>
+        <li><strong>Join a Room:</strong> Enter your player name and either create a new room or join an existing one using a 6-letter room ID.</li>
+        <li><strong>Starting Word:</strong> Once both players have joined, the game automatically selects the starting player and required letter.</li>
+        <li><strong>Word Chain Rule:</strong> Your word must start with the letter shown on screen (the last letter of the previous word).</li>
+        <li><strong>Valid Words Only:</strong> All words must be valid English words. Invalid words result in a strike.</li>
+        <li><strong>No Repeats:</strong> You cannot use a word that has already been played in the current round.</li>
+        <li><strong>Time Pressure:</strong> You have 30 seconds per turn. Submit your word before time runs out!</li>
+        <li><strong>Strikes:</strong> Receive 3 strikes and you're eliminated from the game. Strikes are given for: submitting when it's not your turn, using invalid words, repeating words, or not starting with the required letter.</li>
+        <li><strong>Winning:</strong> The last player standing wins the game!</li>
+      </ul>
+    </div>
+
+    <div class="section" id="gameplay-example">
+      <h2>📝 Example Gameplay</h2>
+      <ul>
+        <li><strong>Player 1:</strong> Submits "TREE" (starts with T)</li>
+        <li><strong>Player 2:</strong> Must submit a word starting with E - enters "ELEPHANT"</li>
+        <li><strong>Player 1:</strong> Must submit a word starting with T - enters "TABLE"</li>
+        <li><strong>Player 2:</strong> Must submit a word starting with E - and so on...</li>
+        <li>If a player can't think of a valid word or breaks the rules, they receive a strike!</li>
       </ul>
     </div>
 
@@ -125,6 +141,7 @@
         <li>Double‑click the file to start installation.</li>
         <li>Follow the on‑screen instructions to complete setup.</li>
         <li>Launch the game from your desktop or start menu.</li>
+        <li>Invite a friend and get ready to play!</li>
       </ul>
     </div>
   </div>
