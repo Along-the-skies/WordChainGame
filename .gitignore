@@ -39,8 +39,7 @@ obj/
 
 # --- Inno Setup ---
 Installer/Output/
-Output/
-*.iss.bak
+
 
 # --- Game assets ---
 Game/__pycache__/
