@@ -26,8 +26,6 @@ obj/
 *.suo
 *.cache
 *.pdb
-*.exe
-*.dll
 *.dbmdl
 *.vs/
 *.vscode/
@@ -35,9 +33,8 @@ obj/
 *.snupkg
 *.swp
 
-# Keep only the published Windows launcher exe
-!Launcher/WordChainGameLauncher.exe
-!Launcher/WordChainGameSetup.exe
+# NOTE: *.exe and *.dll are now tracked with Git LFS (.gitattributes)
+# Large binaries in Launcher/ are tracked via LFS
 
 
 # --- Inno Setup ---
